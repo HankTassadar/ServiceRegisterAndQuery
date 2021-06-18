@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Class\ServiceRegisterPortocol.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Class\ServiceRegisterAndQueryServer.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{cdd7e894-bd8b-479f-b340-90c5c18f28c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{cbcd53d4-8f5d-40dc-8ed1-f891ff51aa4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\include">
+      <UniqueIdentifier>{4348558f-309f-4b94-a947-2423f795cf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\include\http">
+      <UniqueIdentifier>{97304c16-2ce8-47e6-8be5-2589da79a6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\uv">
+      <UniqueIdentifier>{722145a9-8d0e-4550-a272-f6786e896ea3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\uv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Async.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\CycleBuffer.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\DnsGet.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\EventLoop.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\GlobalConfig.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Idle.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\ListBuffer.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\LogWriter.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Packet.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\PacketBuffer.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Signal.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\SocketAddr.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\TcpAccepter.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\TcpClient.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\TcpConnection.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\TcpServer.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Timer.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\TimerWheel.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\Udp.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\uv11.hpp">
+      <Filter>include\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\HttpClient.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\HttpCommon.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\HttpServer.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\RadixTree.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\Request.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\include\http\Response.hpp">
+      <Filter>include\include\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\aix.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\android-ifaddrs.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\bsd.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\darwin.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\errno.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\linux.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\os390.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\posix.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\stdint-msvc2008.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\sunos.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\threadpool.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\tree.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\unix.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\version.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\uv\win.h">
+      <Filter>include\uv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Class\ServiceRegisterPortocol.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Class\ServiceRegisterAndQueryServer.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

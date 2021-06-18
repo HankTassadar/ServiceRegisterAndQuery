@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceRegisterAndQuery", "ServiceRegisterAndQuery\ServiceRegisterAndQuery.vcxproj", "{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceRegisterTestCLient", "ServiceRegisterTestCLient\ServiceRegisterTestCLient.vcxproj", "{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceRegisterAndQueryServerTest", "ServiceRegisterAndQueryServerTest\ServiceRegisterAndQueryServerTest.vcxproj", "{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceQueryTestClient", "ServiceQueryTestClient\ServiceQueryTestClient.vcxproj", "{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM.Build.0 = Debug|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM64.Build.0 = Debug|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x64.ActiveCfg = Debug|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x64.Build.0 = Debug|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x64.Deploy.0 = Debug|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x86.ActiveCfg = Debug|x86
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x86.Build.0 = Debug|x86
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Debug|x86.Deploy.0 = Debug|x86
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM.ActiveCfg = Release|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM.Build.0 = Release|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM.Deploy.0 = Release|ARM
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM64.ActiveCfg = Release|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM64.Build.0 = Release|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|ARM64.Deploy.0 = Release|ARM64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x64.ActiveCfg = Release|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x64.Build.0 = Release|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x64.Deploy.0 = Release|x64
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x86.ActiveCfg = Release|x86
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x86.Build.0 = Release|x86
+		{07E35F41-ED66-4FB5-886B-6EBEBC009DF4}.Release|x86.Deploy.0 = Release|x86
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|ARM.ActiveCfg = Debug|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|x64.ActiveCfg = Debug|x64
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|x64.Build.0 = Debug|x64
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Debug|x86.Build.0 = Debug|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|ARM.ActiveCfg = Release|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|ARM64.ActiveCfg = Release|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|x64.ActiveCfg = Release|x64
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|x64.Build.0 = Release|x64
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|x86.ActiveCfg = Release|Win32
+		{212CB3A6-18EB-47AE-B05B-0BD1FD0462DE}.Release|x86.Build.0 = Release|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|ARM.ActiveCfg = Debug|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|x64.ActiveCfg = Debug|x64
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|x64.Build.0 = Debug|x64
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Debug|x86.Build.0 = Debug|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|ARM.ActiveCfg = Release|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|ARM64.ActiveCfg = Release|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|x64.ActiveCfg = Release|x64
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|x64.Build.0 = Release|x64
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|x86.ActiveCfg = Release|Win32
+		{86D712A9-6AB6-4C7B-BB09-955D2E1ADCBC}.Release|x86.Build.0 = Release|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|ARM.ActiveCfg = Debug|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|x64.ActiveCfg = Debug|x64
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|x64.Build.0 = Debug|x64
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Debug|x86.Build.0 = Debug|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|ARM.ActiveCfg = Release|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|ARM64.ActiveCfg = Release|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|x64.ActiveCfg = Release|x64
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|x64.Build.0 = Release|x64
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|x86.ActiveCfg = Release|Win32
+		{B3CA42C4-EC12-433E-9B57-CED0EA91B93B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CFEC675-9DF4-4953-8587-ED5004B47161}
+	EndGlobalSection
+EndGlobal

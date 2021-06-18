@@ -1,0 +1,8 @@
+/x64/
+/.vs/
+/ServiceQueryTestClient/x64
+/ServiceRegisterAndQuery/bin/
+/ServiceRegisterAndQuery/obj/
+/ServiceRegisterAndQueryServerTest/x64/
+/ServiceRegisterTestCLient/x64/
+
