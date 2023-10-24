@@ -75,8 +75,8 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\Administrator\source\repos\ServiceRegisterAndQuery\Class;C:\Users\Administrator\source\repos\ServiceRegisterAndQuery\include;$(IncludePath)</IncludePath>
-    <SourcePath>C:\Users\Administrator\source\repos\ServiceRegisterAndQuery\class;$(SourcePath)</SourcePath>
+    <IncludePath>$(SolutionDir)Class;$(SolutionDir)include;$(IncludePath)</IncludePath>
+    <SourcePath>$(SolutionDir)Class;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Users\Administrator\source\repos\ServiceRegisterAndQuery\Class;C:\Users\Administrator\source\repos\ServiceRegisterAndQuery\include;$(IncludePath)</IncludePath>
